@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mobile Phones Website</title>
+    <style>
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f0f0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        section {
+            padding: 20px;
+        }
+        .phone {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Mobile Phones</h1>
+    </header>
+    <section>
+        <div class="phone">
+            <h2>iPhone 13</h2>
+            <p>The latest iPhone with advanced features.</p>
+            <button onclick="showDetails('iPhone 13')">Show Details</button>
+        </div>
+        <div class="phone">
+            <h2>Samsung Galaxy S21</h2>
+            <p>A flagship Android smartphone with top-of-the-line specs.</p>
+            <button onclick="showDetails('Samsung Galaxy S21')">Show Details</button>
+        </div>
+    </section>
+    <script>
+        // Function to show details of the selected phone
+        function showDetails(phoneName) {
+            alert('You selected ' + phoneName);
+            // You can add more functionality here, like opening a new page or displaying more information
+        }
+    </script>
+</body>
+</html>
